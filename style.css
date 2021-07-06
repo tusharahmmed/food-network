@@ -1,0 +1,249 @@
+body{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 60px;
+    color: #575757;
+}
+
+/*
+    Nav CSS
+*/
+nav{
+    position: fixed;
+    top: 5px;
+    left: 80px;
+}
+#menu-list{
+    padding-left: 0px;
+    display: flex;
+}
+#menu-list li{
+    list-style-type: none;
+    padding: 20px 10px;
+
+}
+.menu-item{
+   padding: 10px 15px;
+}
+
+/*
+    Header CSS
+*/
+header{
+    display: flex;
+    padding-bottom: 70px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.header-content{
+    box-sizing: border-box;
+    padding: 17% 0% 0% 13% ;
+}
+
+.header-content p{
+    color: #828282;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.text-color{
+    background: linear-gradient(to right, #FB984C, #FC8745);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FB984C, #FE482D);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 40px;
+}
+/*
+    About Section CSS
+*/
+.about{
+    display: flex;
+    background-image: url("img/about-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 110px;
+}
+#about-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.about h2{
+    font-size: 40px;
+    color: #575757;
+    padding-top: 20px;
+}
+.about p{
+    font-size: 18px;
+    padding-right: 28%;
+    font-family: Manrope;
+    color: black;
+    line-height: 30px;
+    margin-bottom: 150px;
+}
+/*
+    My Recipe CSS
+*/
+.my-recipe{
+    padding-bottom: 50px;
+}
+.my-recipe h2{
+    font-size: 38px;
+    text-align: center;
+    color: #575757;
+    padding-top: 50px;
+}
+.my-recipe p{
+    text-align: center;
+    font-size: 18px;
+    padding: 0% 20%;
+    color: #575757;
+    margin-bottom: 45px;
+}
+.recipe-list{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.recipe-item img{
+    width: 100%;
+}
+.recipe-item{
+    box-sizing: border-box;
+    width: 30%;
+    margin: auto;
+    box-shadow: 1px 5px 20px rgba(128, 128, 128, 0.384);
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+.recipe-item h3{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.recipe-item p{
+    padding: 0px;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+/*
+    Followers Section CSS
+*/
+.follower{
+    width: 78%;
+    padding: 85px 0px 50px 0px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.social-div{
+    display: flex;
+    box-shadow: 1px 5px 20px rgba(128, 128, 128, 0.384);
+    border-radius: 20px;
+
+}
+.social-site{
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.social-site h1{
+    font-size: 48px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.social-site p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+/*
+    Email Section Css
+*/
+.email{
+    background-image: linear-gradient(to right, #FB984C, #FE482D);
+    width: 78%;
+    margin: 0px auto 10px auto;
+    box-shadow: 1px 5px 20px rgba(128, 128, 128, 0.384);
+    border-radius: 10px;
+}
+.email-content{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+}
+.email-content h2{
+    font-size: 38px;
+    color: white;
+}
+
+#email{
+    padding: 15px 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+#email::placeholder{
+    color: white;
+    font-size: 20px;
+}
+#email:focus{
+    outline-width: 0;
+}
+#email-btn{
+    padding: 19px 30px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+/*
+    Footer Css
+*/
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer h2{
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 900;
+}
+footer p{
+    font-size: 16px;
+}
+.right-space{
+    padding-right: 10px;
+}
+.text-color-2{
+    color: gray;
+}
